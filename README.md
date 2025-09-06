@@ -14,13 +14,14 @@ This project demonstrates the basics of client-server communication, where a ser
 ---
 
 ## 📂 Project Structure
-
-- chat_server.c # Server code
-- chat_client.c # Client code
-- README.md # Project documentation
-- .gitignore # Ignore compiled binaries
-- LICENSE # MIT License
-
+```
+.                
+|-- .gitignore
+|-- LICENSE
+|-- README.md
+|-- skclient.c
+`-- skserver.c
+```
 ---
 
 ## 🛠️ How to Run
