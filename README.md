@@ -15,9 +15,11 @@ This project demonstrates the basics of client-server communication, where a ser
 
 ## 📂 Project Structure
 
-├── chat_server.c # Server code
-├── chat_client.c # Client code
-└── README.md # Project documentation
+- chat_server.c # Server code
+- chat_client.c # Client code
+- README.md # Project documentation
+- .gitignore # Ignore compiled binaries
+- LICENSE # MIT License
 
 ---
 
@@ -39,10 +41,21 @@ gcc skclient.c -o skclient
 ./skclient
 ```
 
----
+
+
+## Next Steps
+- Add support for multiple clients
+- Implement a GUI
+- Add encryption
+
 
 ## 📝 Notes
 - This is a basic implementation for educational purposes.  
+- Error handling is minimal.  
+- No encryption or authentication.  
+- Not suitable for production use.  
+
+---
 
 ## License
 This project is licensed under the MIT License.
